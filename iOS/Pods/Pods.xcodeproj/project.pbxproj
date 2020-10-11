@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CAC3EBA7762743F318D75F1AF71144 /* AZTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55333EE8494CA79A988A2717EAE35520 /* AZTabBar-dummy.m */; };
+		1229C3B5700E62CF5FD8322F21F03390 /* EasyNotificationBadge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1489BEE95B3A81E8C33D5ABF066F0F84 /* EasyNotificationBadge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F539640C8344CC226625B394F2F237 /* AZTabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD868F0395B33FB40234DEC78AF8ABD /* AZTabBarDelegate.swift */; };
+		45FE570300CB68471D51E339F2A0BED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A14776256FC60CF81A4F115DF5ACF96 /* Foundation.framework */; };
+		49006B764799541BB8F9CE158D6DA93F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A14776256FC60CF81A4F115DF5ACF96 /* Foundation.framework */; };
+		56F911331837730F48CE97E6FE2A94CC /* AZTabBarButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB964F83A18FC5634FC5F737971DA42C /* AZTabBarButtonDelegate.swift */; };
+		5718B16FE51498E34846D527C7699BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A14776256FC60CF81A4F115DF5ACF96 /* Foundation.framework */; };
+		57637D1DFD8C151128D8626A0BAEE6AB /* AACarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F34918662E04C54BC4B197D2FE87E9 /* AACarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596150CCCF240F9B798009D46518339F /* Pods-hackVTB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F51A6D5B5A602EF575A40F3ABF80178 /* Pods-hackVTB-dummy.m */; };
+		6BAB8E195A6140EB41DB410E29336501 /* EasyNotificationBadge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52007420F9D7E00BC4A6AFC208C25620 /* EasyNotificationBadge.framework */; };
+		708E6AFF5CCC576E1BD18B20474D4ACF /* EasyNotificationBadge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCF96EBA3756E7E709F0A3B9DBA4192 /* EasyNotificationBadge-dummy.m */; };
+		80FDFCFBBC3248603C02010FD0202802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A14776256FC60CF81A4F115DF5ACF96 /* Foundation.framework */; };
+		9373FF14064D992188BD7641E9E4DC48 /* AZTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC4E3F5F8661004DB7EE18811C67BD2 /* AZTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960006D417871985538A6E7AD6915B99 /* AZTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78F7D67D64ADBEA5B088FDF74A413BD /* AZTabBarButton.swift */; };
+		A3E9FB722663DFB306428A170D315D24 /* EasyNotificationBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41BB00C6524B0FC0F6D5D245770FF0 /* EasyNotificationBadge.swift */; };
+		C5073EAB4CCD72AD851E0AF4ABC7EC89 /* AACarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A679AAF42B8BF2FD73897A712855716 /* AACarousel-dummy.m */; };
+		C57E8E0D3962A019E18D756C8AB3143D /* Pods-hackVTB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E63640C91B79359BB7DC6291C3249F /* Pods-hackVTB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4797C8556F8ED2187CF2589954CAD6D /* AACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB5A049A82BD47EE779212A34CDC4C /* AACarousel.swift */; };
+		EADAC56B74DA3B99DA86EFBCC621FB84 /* AZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F777834BED9C18DE03483FB7816709 /* AZTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		354D197EA644B3261E1FDD21564577CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954B559F947A92A9937D01300841CE4D;
+			remoteInfo = EasyNotificationBadge;
+		};
+		AF4202551E2E92903982066ABCB733A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D692B75BD949E3E458E76C6D0E47D78A;
+			remoteInfo = AACarousel;
+		};
+		B9BC1BFF3DBB8152F748DA5F426CC753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954B559F947A92A9937D01300841CE4D;
+			remoteInfo = EasyNotificationBadge;
+		};
+		D43E0B88FBE17FD509CEAB013929404D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0486FEB478200E32BC39FF467B1B333;
+			remoteInfo = AZTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA05B25A3F11A754587CC39DD36161A /* Pods-hackVTB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hackVTB-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DBE9B24C28C2D1A34B091813CB4A7F8 /* AZTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZTabBar.debug.xcconfig; sourceTree = "<group>"; };
+		1149B2170C0525ED9637A4FD199DFE6E /* AACarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AACarousel.release.xcconfig; sourceTree = "<group>"; };
+		12F064087EFA01EFF1C41D094FDC8B6F /* AACarousel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AACarousel-Info.plist"; sourceTree = "<group>"; };
+		1489BEE95B3A81E8C33D5ABF066F0F84 /* EasyNotificationBadge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNotificationBadge-umbrella.h"; sourceTree = "<group>"; };
+		1AAFED5630EB10B28E6557E192E1AE01 /* Pods-hackVTB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackVTB-Info.plist"; sourceTree = "<group>"; };
+		1CC4E3F5F8661004DB7EE18811C67BD2 /* AZTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZTabBar-umbrella.h"; sourceTree = "<group>"; };
+		22A35AF3239765BB0D386B059017D15A /* AACarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AACarousel.debug.xcconfig; sourceTree = "<group>"; };
+		2A679AAF42B8BF2FD73897A712855716 /* AACarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AACarousel-dummy.m"; sourceTree = "<group>"; };
+		2F41BB00C6524B0FC0F6D5D245770FF0 /* EasyNotificationBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyNotificationBadge.swift; path = Sources/EasyNotificationBadge.swift; sourceTree = "<group>"; };
+		2F51A6D5B5A602EF575A40F3ABF80178 /* Pods-hackVTB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hackVTB-dummy.m"; sourceTree = "<group>"; };
+		348F0A89EB9566F24F6D13D50D8A95F9 /* Pods-hackVTB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hackVTB-acknowledgements.plist"; sourceTree = "<group>"; };
+		372262D8171F8A5268DE7954DC9CD599 /* EasyNotificationBadge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyNotificationBadge.debug.xcconfig; sourceTree = "<group>"; };
+		37A54D5E44EA1F3A99C64BAE6CCA2135 /* EasyNotificationBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyNotificationBadge.framework; path = EasyNotificationBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F777834BED9C18DE03483FB7816709 /* AZTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarController.swift; path = Sources/AZTabBarController.swift; sourceTree = "<group>"; };
+		3BD868F0395B33FB40234DEC78AF8ABD /* AZTabBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarDelegate.swift; path = Sources/AZTabBarDelegate.swift; sourceTree = "<group>"; };
+		3CCF96EBA3756E7E709F0A3B9DBA4192 /* EasyNotificationBadge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyNotificationBadge-dummy.m"; sourceTree = "<group>"; };
+		3DAEEAE911BDBD3923FB327CB5E966B2 /* Pods-hackVTB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackVTB.debug.xcconfig"; sourceTree = "<group>"; };
+		52007420F9D7E00BC4A6AFC208C25620 /* EasyNotificationBadge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyNotificationBadge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55333EE8494CA79A988A2717EAE35520 /* AZTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZTabBar-dummy.m"; sourceTree = "<group>"; };
+		7A9BCE25FCDD23EF74E6C3D3F26C9B19 /* EasyNotificationBadge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyNotificationBadge.modulemap; sourceTree = "<group>"; };
+		80D10B659DBBB06BAFE2766574C982F6 /* AACarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AACarousel-prefix.pch"; sourceTree = "<group>"; };
+		85E63640C91B79359BB7DC6291C3249F /* Pods-hackVTB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hackVTB-umbrella.h"; sourceTree = "<group>"; };
+		8A14776256FC60CF81A4F115DF5ACF96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C7449F9E195D97AADDD3A824628E68 /* Pods-hackVTB-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hackVTB-frameworks.sh"; sourceTree = "<group>"; };
+		A3687EB8C3EEEF67C41CB841CF197540 /* AZTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZTabBar.release.xcconfig; sourceTree = "<group>"; };
+		A6674377317D99A512DA514BE8F02DA1 /* AACarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AACarousel.framework; path = AACarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B705D128FE7E35E946DB17888DE4A3 /* AZTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AZTabBar-Info.plist"; sourceTree = "<group>"; };
+		B74B0BE3605C5211DBC9438907A74AB6 /* EasyNotificationBadge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyNotificationBadge.release.xcconfig; sourceTree = "<group>"; };
+		B7F34918662E04C54BC4B197D2FE87E9 /* AACarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AACarousel-umbrella.h"; sourceTree = "<group>"; };
+		B8A1530103CA2AC2DA20CEBB24D2D5AA /* AZTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZTabBar.framework; path = AZTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C144B86A9E51EDF1D7A0EF9FBE5EAC /* AZTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZTabBar-prefix.pch"; sourceTree = "<group>"; };
+		D489084B146661EBA122CB8DEF81E587 /* Pods-hackVTB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hackVTB.modulemap"; sourceTree = "<group>"; };
+		DB964F83A18FC5634FC5F737971DA42C /* AZTabBarButtonDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarButtonDelegate.swift; path = Sources/AZTabBarButtonDelegate.swift; sourceTree = "<group>"; };
+		DFF9BB8A417024B068BDD1BC113E15F9 /* AACarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AACarousel.modulemap; sourceTree = "<group>"; };
+		F0E531FD84146C1D31E0B4F7B0F45A9A /* Pods-hackVTB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hackVTB.release.xcconfig"; sourceTree = "<group>"; };
+		F3AA974C7A1CBD8BC3AD63BB3F70DB5B /* EasyNotificationBadge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNotificationBadge-prefix.pch"; sourceTree = "<group>"; };
+		F3BB5A049A82BD47EE779212A34CDC4C /* AACarousel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AACarousel.swift; path = Sources/AACarousel.swift; sourceTree = "<group>"; };
+		F5B53F8127BAB5E7A920704ACE13C312 /* AZTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AZTabBar.modulemap; sourceTree = "<group>"; };
+		F78F7D67D64ADBEA5B088FDF74A413BD /* AZTabBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZTabBarButton.swift; path = Sources/AZTabBarButton.swift; sourceTree = "<group>"; };
+		F9481ED73654C1D337A9F025445F7831 /* EasyNotificationBadge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyNotificationBadge-Info.plist"; sourceTree = "<group>"; };
+		FDF48CD474268407B392566777D92920 /* Pods_hackVTB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hackVTB.framework; path = "Pods-hackVTB.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0836BFE1F0FFF386F27AB1917B4BCA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5718B16FE51498E34846D527C7699BC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C767C44AD29740264F1791952EA97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FDFCFBBC3248603C02010FD0202802 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CF1C905ABD25023D51552BF94CEAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAB8E195A6140EB41DB410E29336501 /* EasyNotificationBadge.framework in Frameworks */,
+				49006B764799541BB8F9CE158D6DA93F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B78D9EC62EFBD63BE203F94EAE2FCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FE570300CB68471D51E339F2A0BED1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E91F3DB13C1B5FC413EC2D8990CE410 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FF73261D1828A39AC0D86682B64E1D /* Pods-hackVTB */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E1D46902B6D838678DF7D63C314F71E /* AZTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F78F7D67D64ADBEA5B088FDF74A413BD /* AZTabBarButton.swift */,
+				DB964F83A18FC5634FC5F737971DA42C /* AZTabBarButtonDelegate.swift */,
+				37F777834BED9C18DE03483FB7816709 /* AZTabBarController.swift */,
+				3BD868F0395B33FB40234DEC78AF8ABD /* AZTabBarDelegate.swift */,
+				3FDE2E762EBE437C00813F911C347CF6 /* Support Files */,
+			);
+			name = AZTabBar;
+			path = AZTabBar;
+			sourceTree = "<group>";
+		};
+		32FF73261D1828A39AC0D86682B64E1D /* Pods-hackVTB */ = {
+			isa = PBXGroup;
+			children = (
+				D489084B146661EBA122CB8DEF81E587 /* Pods-hackVTB.modulemap */,
+				0BA05B25A3F11A754587CC39DD36161A /* Pods-hackVTB-acknowledgements.markdown */,
+				348F0A89EB9566F24F6D13D50D8A95F9 /* Pods-hackVTB-acknowledgements.plist */,
+				2F51A6D5B5A602EF575A40F3ABF80178 /* Pods-hackVTB-dummy.m */,
+				A1C7449F9E195D97AADDD3A824628E68 /* Pods-hackVTB-frameworks.sh */,
+				1AAFED5630EB10B28E6557E192E1AE01 /* Pods-hackVTB-Info.plist */,
+				85E63640C91B79359BB7DC6291C3249F /* Pods-hackVTB-umbrella.h */,
+				3DAEEAE911BDBD3923FB327CB5E966B2 /* Pods-hackVTB.debug.xcconfig */,
+				F0E531FD84146C1D31E0B4F7B0F45A9A /* Pods-hackVTB.release.xcconfig */,
+			);
+			name = "Pods-hackVTB";
+			path = "Target Support Files/Pods-hackVTB";
+			sourceTree = "<group>";
+		};
+		3676F9C114713B604B5B990B2D3B996E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A9BCE25FCDD23EF74E6C3D3F26C9B19 /* EasyNotificationBadge.modulemap */,
+				3CCF96EBA3756E7E709F0A3B9DBA4192 /* EasyNotificationBadge-dummy.m */,
+				F9481ED73654C1D337A9F025445F7831 /* EasyNotificationBadge-Info.plist */,
+				F3AA974C7A1CBD8BC3AD63BB3F70DB5B /* EasyNotificationBadge-prefix.pch */,
+				1489BEE95B3A81E8C33D5ABF066F0F84 /* EasyNotificationBadge-umbrella.h */,
+				372262D8171F8A5268DE7954DC9CD599 /* EasyNotificationBadge.debug.xcconfig */,
+				B74B0BE3605C5211DBC9438907A74AB6 /* EasyNotificationBadge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyNotificationBadge";
+			sourceTree = "<group>";
+		};
+		3DAD5A502DE0096D34CCEED47F468B86 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A14776256FC60CF81A4F115DF5ACF96 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3FDE2E762EBE437C00813F911C347CF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B53F8127BAB5E7A920704ACE13C312 /* AZTabBar.modulemap */,
+				55333EE8494CA79A988A2717EAE35520 /* AZTabBar-dummy.m */,
+				A6B705D128FE7E35E946DB17888DE4A3 /* AZTabBar-Info.plist */,
+				B9C144B86A9E51EDF1D7A0EF9FBE5EAC /* AZTabBar-prefix.pch */,
+				1CC4E3F5F8661004DB7EE18811C67BD2 /* AZTabBar-umbrella.h */,
+				0DBE9B24C28C2D1A34B091813CB4A7F8 /* AZTabBar.debug.xcconfig */,
+				A3687EB8C3EEEF67C41CB841CF197540 /* AZTabBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AZTabBar";
+			sourceTree = "<group>";
+		};
+		750EFFEBAC025F1718AA023458D52BBC /* EasyNotificationBadge */ = {
+			isa = PBXGroup;
+			children = (
+				2F41BB00C6524B0FC0F6D5D245770FF0 /* EasyNotificationBadge.swift */,
+				3676F9C114713B604B5B990B2D3B996E /* Support Files */,
+			);
+			name = EasyNotificationBadge;
+			path = EasyNotificationBadge;
+			sourceTree = "<group>";
+		};
+		76B9598DAB24EDEEA25FA85EDACE2E1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9BB8A417024B068BDD1BC113E15F9 /* AACarousel.modulemap */,
+				2A679AAF42B8BF2FD73897A712855716 /* AACarousel-dummy.m */,
+				12F064087EFA01EFF1C41D094FDC8B6F /* AACarousel-Info.plist */,
+				80D10B659DBBB06BAFE2766574C982F6 /* AACarousel-prefix.pch */,
+				B7F34918662E04C54BC4B197D2FE87E9 /* AACarousel-umbrella.h */,
+				22A35AF3239765BB0D386B059017D15A /* AACarousel.debug.xcconfig */,
+				1149B2170C0525ED9637A4FD199DFE6E /* AACarousel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AACarousel";
+			sourceTree = "<group>";
+		};
+		961974DE2C8297E21D659F931FC0FA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6674377317D99A512DA514BE8F02DA1 /* AACarousel.framework */,
+				B8A1530103CA2AC2DA20CEBB24D2D5AA /* AZTabBar.framework */,
+				37A54D5E44EA1F3A99C64BAE6CCA2135 /* EasyNotificationBadge.framework */,
+				FDF48CD474268407B392566777D92920 /* Pods_hackVTB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ECC6AEB98EBD0DD53C4E656C3428FF55 /* Frameworks */,
+				D1954F4C2D3CE72A016DCB71E1E64A72 /* Pods */,
+				961974DE2C8297E21D659F931FC0FA4D /* Products */,
+				1E91F3DB13C1B5FC413EC2D8990CE410 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1954F4C2D3CE72A016DCB71E1E64A72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE66FB5481B5C6B50BD42CE0549A4819 /* AACarousel */,
+				2E1D46902B6D838678DF7D63C314F71E /* AZTabBar */,
+				750EFFEBAC025F1718AA023458D52BBC /* EasyNotificationBadge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECC6AEB98EBD0DD53C4E656C3428FF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52007420F9D7E00BC4A6AFC208C25620 /* EasyNotificationBadge.framework */,
+				3DAD5A502DE0096D34CCEED47F468B86 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE66FB5481B5C6B50BD42CE0549A4819 /* AACarousel */ = {
+			isa = PBXGroup;
+			children = (
+				F3BB5A049A82BD47EE779212A34CDC4C /* AACarousel.swift */,
+				76B9598DAB24EDEEA25FA85EDACE2E1C /* Support Files */,
+			);
+			name = AACarousel;
+			path = AACarousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BC76DB58B093310D483F5163FD246EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9373FF14064D992188BD7641E9E4DC48 /* AZTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4480508F4E2BF8E904D5F2A6688411E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57E8E0D3962A019E18D756C8AB3143D /* Pods-hackVTB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEC69649EAB6A3D8E8532A0CCB53A55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57637D1DFD8C151128D8626A0BAEE6AB /* AACarousel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903AE425FDED2A89EA595A27A4E71A35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1229C3B5700E62CF5FD8322F21F03390 /* EasyNotificationBadge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22EE43E286E0DF7ABC426CB564B8B44 /* Build configuration list for PBXNativeTarget "EasyNotificationBadge" */;
+			buildPhases = (
+				903AE425FDED2A89EA595A27A4E71A35 /* Headers */,
+				046D27596CCB28623AD2F9C5B1D370A3 /* Sources */,
+				0836BFE1F0FFF386F27AB1917B4BCA5C /* Frameworks */,
+				26B0CD55EDB4C5593F91841EAFBE731F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNotificationBadge;
+			productName = EasyNotificationBadge;
+			productReference = 37A54D5E44EA1F3A99C64BAE6CCA2135 /* EasyNotificationBadge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D692B75BD949E3E458E76C6D0E47D78A /* AACarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5F19C794D32AE7F8F92263C5551907 /* Build configuration list for PBXNativeTarget "AACarousel" */;
+			buildPhases = (
+				4DEC69649EAB6A3D8E8532A0CCB53A55 /* Headers */,
+				F26644667FB31848DB2A146006DA3D99 /* Sources */,
+				4B78D9EC62EFBD63BE203F94EAE2FCDE /* Frameworks */,
+				97A3E44FE27B2A67CDEB41C6F90E9989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AACarousel;
+			productName = AACarousel;
+			productReference = A6674377317D99A512DA514BE8F02DA1 /* AACarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0486FEB478200E32BC39FF467B1B333 /* AZTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB82A4AFE6D5EC008A4235C82B0C0FB /* Build configuration list for PBXNativeTarget "AZTabBar" */;
+			buildPhases = (
+				3BC76DB58B093310D483F5163FD246EB /* Headers */,
+				B8F16DB5E19BA2591312BAE1E4E6BEEA /* Sources */,
+				34CF1C905ABD25023D51552BF94CEAB1 /* Frameworks */,
+				9B3E60D2B62EDF6813FAF729987E0C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5541A3FB5FA6DDDE4193BA5D800EE2 /* PBXTargetDependency */,
+			);
+			name = AZTabBar;
+			productName = AZTabBar;
+			productReference = B8A1530103CA2AC2DA20CEBB24D2D5AA /* AZTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3CDA8277962B6F0F65FA3840818CB9E /* Pods-hackVTB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60F66E33FE4CF39020E006BFF201E45 /* Build configuration list for PBXNativeTarget "Pods-hackVTB" */;
+			buildPhases = (
+				4480508F4E2BF8E904D5F2A6688411E4 /* Headers */,
+				3DF3A7080B608B56071D94DE01B87B6B /* Sources */,
+				15C767C44AD29740264F1791952EA97D /* Frameworks */,
+				8529E18C3D9F957198C86C3219CA161F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0183B246B6F6C95CB82EFC6C9AF30E88 /* PBXTargetDependency */,
+				F10CDA35BF0C163EF66D8551A72FA9ED /* PBXTargetDependency */,
+				B7528BF1A36C3770D0CEB234ED0A4EBA /* PBXTargetDependency */,
+			);
+			name = "Pods-hackVTB";
+			productName = "Pods-hackVTB";
+			productReference = FDF48CD474268407B392566777D92920 /* Pods_hackVTB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 961974DE2C8297E21D659F931FC0FA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D692B75BD949E3E458E76C6D0E47D78A /* AACarousel */,
+				E0486FEB478200E32BC39FF467B1B333 /* AZTabBar */,
+				954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */,
+				E3CDA8277962B6F0F65FA3840818CB9E /* Pods-hackVTB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B0CD55EDB4C5593F91841EAFBE731F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8529E18C3D9F957198C86C3219CA161F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A3E44FE27B2A67CDEB41C6F90E9989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3E60D2B62EDF6813FAF729987E0C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046D27596CCB28623AD2F9C5B1D370A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708E6AFF5CCC576E1BD18B20474D4ACF /* EasyNotificationBadge-dummy.m in Sources */,
+				A3E9FB722663DFB306428A170D315D24 /* EasyNotificationBadge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF3A7080B608B56071D94DE01B87B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596150CCCF240F9B798009D46518339F /* Pods-hackVTB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F16DB5E19BA2591312BAE1E4E6BEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CAC3EBA7762743F318D75F1AF71144 /* AZTabBar-dummy.m in Sources */,
+				960006D417871985538A6E7AD6915B99 /* AZTabBarButton.swift in Sources */,
+				56F911331837730F48CE97E6FE2A94CC /* AZTabBarButtonDelegate.swift in Sources */,
+				EADAC56B74DA3B99DA86EFBCC621FB84 /* AZTabBarController.swift in Sources */,
+				14F539640C8344CC226625B394F2F237 /* AZTabBarDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26644667FB31848DB2A146006DA3D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5073EAB4CCD72AD851E0AF4ABC7EC89 /* AACarousel-dummy.m in Sources */,
+				E4797C8556F8ED2187CF2589954CAD6D /* AACarousel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0183B246B6F6C95CB82EFC6C9AF30E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AACarousel;
+			target = D692B75BD949E3E458E76C6D0E47D78A /* AACarousel */;
+			targetProxy = AF4202551E2E92903982066ABCB733A3 /* PBXContainerItemProxy */;
+		};
+		4D5541A3FB5FA6DDDE4193BA5D800EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyNotificationBadge;
+			target = 954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */;
+			targetProxy = 354D197EA644B3261E1FDD21564577CD /* PBXContainerItemProxy */;
+		};
+		B7528BF1A36C3770D0CEB234ED0A4EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyNotificationBadge;
+			target = 954B559F947A92A9937D01300841CE4D /* EasyNotificationBadge */;
+			targetProxy = B9BC1BFF3DBB8152F748DA5F426CC753 /* PBXContainerItemProxy */;
+		};
+		F10CDA35BF0C163EF66D8551A72FA9ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AZTabBar;
+			target = E0486FEB478200E32BC39FF467B1B333 /* AZTabBar */;
+			targetProxy = D43E0B88FBE17FD509CEAB013929404D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019E47EA3DB7F7E6F2A558CE9A013E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74B0BE3605C5211DBC9438907A74AB6 /* EasyNotificationBadge.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge.modulemap";
+				PRODUCT_MODULE_NAME = EasyNotificationBadge;
+				PRODUCT_NAME = EasyNotificationBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B5E13E36D671BD3C80C8E317B4EC760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1149B2170C0525ED9637A4FD199DFE6E /* AACarousel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AACarousel/AACarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AACarousel/AACarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AACarousel/AACarousel.modulemap";
+				PRODUCT_MODULE_NAME = AACarousel;
+				PRODUCT_NAME = AACarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FD4D0E31278B5CE8FBB5F1E93D89382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A35AF3239765BB0D386B059017D15A /* AACarousel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AACarousel/AACarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AACarousel/AACarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AACarousel/AACarousel.modulemap";
+				PRODUCT_MODULE_NAME = AACarousel;
+				PRODUCT_NAME = AACarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F31FA52651366205614A8C3B06B9B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E531FD84146C1D31E0B4F7B0F45A9A /* Pods-hackVTB.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hackVTB/Pods-hackVTB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hackVTB/Pods-hackVTB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		910A5F080DADFC266B4D300C96C289A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3687EB8C3EEEF67C41CB841CF197540 /* AZTabBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZTabBar/AZTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZTabBar/AZTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AZTabBar/AZTabBar.modulemap";
+				PRODUCT_MODULE_NAME = AZTabBar;
+				PRODUCT_NAME = AZTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97A6C007AAC39E7BC780616F235DD829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAEEAE911BDBD3923FB327CB5E966B2 /* Pods-hackVTB.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hackVTB/Pods-hackVTB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hackVTB/Pods-hackVTB.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADD5664174349BEA0D11C9CC1484601F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372262D8171F8A5268DE7954DC9CD599 /* EasyNotificationBadge.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyNotificationBadge/EasyNotificationBadge.modulemap";
+				PRODUCT_MODULE_NAME = EasyNotificationBadge;
+				PRODUCT_NAME = EasyNotificationBadge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EAB218063927DD3566158248ED599C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBE9B24C28C2D1A34B091813CB4A7F8 /* AZTabBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZTabBar/AZTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZTabBar/AZTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AZTabBar/AZTabBar.modulemap";
+				PRODUCT_MODULE_NAME = AZTabBar;
+				PRODUCT_NAME = AZTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB82A4AFE6D5EC008A4235C82B0C0FB /* Build configuration list for PBXNativeTarget "AZTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB218063927DD3566158248ED599C5E /* Debug */,
+				910A5F080DADFC266B4D300C96C289A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5F19C794D32AE7F8F92263C5551907 /* Build configuration list for PBXNativeTarget "AACarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD4D0E31278B5CE8FBB5F1E93D89382 /* Debug */,
+				1B5E13E36D671BD3C80C8E317B4EC760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22EE43E286E0DF7ABC426CB564B8B44 /* Build configuration list for PBXNativeTarget "EasyNotificationBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD5664174349BEA0D11C9CC1484601F /* Debug */,
+				019E47EA3DB7F7E6F2A558CE9A013E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60F66E33FE4CF39020E006BFF201E45 /* Build configuration list for PBXNativeTarget "Pods-hackVTB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A6C007AAC39E7BC780616F235DD829 /* Debug */,
+				8F31FA52651366205614A8C3B06B9B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,24 @@
+PODS:
+  - AACarousel (1.1.1)
+  - AZTabBar (1.4.2):
+    - EasyNotificationBadge
+  - EasyNotificationBadge (1.2.0)
+
+DEPENDENCIES:
+  - AACarousel
+  - AZTabBar
+
+SPEC REPOS:
+  trunk:
+    - AACarousel
+    - AZTabBar
+    - EasyNotificationBadge
+
+SPEC CHECKSUMS:
+  AACarousel: e0dbd2d3153c56c36df8aa282553f20fc88e132b
+  AZTabBar: e4d5a1f5f3fc7be044d532b7a704d303cff9af11
+  EasyNotificationBadge: afeb15ed6f9a4262d626a2b745297e96afa26c2e
+
+PODFILE CHECKSUM: 31527c6055ee40c2a242237cfa02a89872ad5b81
+
+COCOAPODS: 1.9.3

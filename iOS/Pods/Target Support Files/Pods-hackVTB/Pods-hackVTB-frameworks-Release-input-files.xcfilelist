@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-hackVTB/Pods-hackVTB-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AACarousel/AACarousel.framework
+${BUILT_PRODUCTS_DIR}/AZTabBar/AZTabBar.framework
+${BUILT_PRODUCTS_DIR}/EasyNotificationBadge/EasyNotificationBadge.framework

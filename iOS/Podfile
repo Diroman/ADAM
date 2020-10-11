@@ -1,0 +1,10 @@
+use_frameworks!
+
+def shared_pods
+pod 'AACarousel'
+pod 'AZTabBar'
+end
+
+target 'hackVTB' do
+    shared_pods
+end
