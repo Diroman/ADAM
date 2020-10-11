@@ -179,7 +179,8 @@ func (s *Server) calculate(w http.ResponseWriter, r *http.Request)  {
 	defer closeFunc()
 
 	jsonReq := body.(*model.CalculateRequest)
-	jsonData, err := json.Marshal(jsonReq)
+	reqData := model.CalcReqToiOS(*jsonReq)
+	jsonData, err := json.Marshal(reqData)
 	if err != nil {
 		log.Printf("Can`t marshal json body: %s", err)
 		w.WriteHeader(500)

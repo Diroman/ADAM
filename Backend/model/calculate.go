@@ -1,6 +1,20 @@
 package model
 
+import "strconv"
+
 type CalculateRequest struct {
+	ClientTypes       []string `json:"clientTypes"`
+	Cost              string   `json:"cost"`
+	InitialFee        int      `json:"initialFee"`
+	KaskoValue        int      `json:"kaskoValue"`
+	Language          string   `json:"language"`
+	ResidualPayment   float64  `json:"residualPayment"`
+	SettingsName      string   `json:"settingsName"`
+	SpecialConditions []string `json:"specialConditions"`
+	Term              int      `json:"term"`
+}
+
+type CalculateRequestiOS struct {
 	ClientTypes       []string `json:"clientTypes"`
 	Cost              int      `json:"cost"`
 	InitialFee        int      `json:"initialFee"`
@@ -81,5 +95,20 @@ func CalcResponseToCalciOS(response CalculateResponse) CalculateiOS {
 		KaskoCost:    result.KaskoCost,
 		Payment:      result.Payment,
 		Term:         result.Term,
+	}
+}
+
+func CalcReqToiOS(request CalculateRequest) CalculateRequestiOS {
+	cost, _ := strconv.Atoi(request.Cost)
+	return CalculateRequestiOS{
+		ClientTypes:       request.ClientTypes,
+		Cost:              cost,
+		InitialFee:        request.InitialFee,
+		KaskoValue:        request.KaskoValue,
+		Language:          request.Language,
+		ResidualPayment:   request.ResidualPayment,
+		SettingsName:      request.SettingsName,
+		SpecialConditions: request.SpecialConditions,
+		Term:              request.Term,
 	}
 }
