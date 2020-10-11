@@ -1,0 +1,15 @@
+syntax = 'proto3';
+
+option go_package = "modelApi";
+
+message Image{
+  string image = 1;
+}
+
+message Classes {
+  map<string, float> classes = 1;
+}
+
+service CarDetector{
+  rpc predict(Image) returns (Classes);
+}

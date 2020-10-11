@@ -1,0 +1,154 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "ML Test Car Recognition API",
+        "version": "0.4.3"
+    },
+    "paths": {
+        "/car-recognize": {
+            "post": {
+                "summary": "Car Recognize",
+                "operationId": "car_recognize_car_recognize_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/CarImage"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/CarResponse"
+                                }
+                            }
+                        }
+                    },
+                    "413": {
+                        "description": "Request Entity Too Large",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "CarImage": {
+                "title": "CarImage",
+                "required": ["content"],
+                "type": "object",
+                "properties": {
+                    "content": {
+                        "title": "Content",
+                        "type": "string",
+                        "description": "Base64 encoded image file (.jpg)"
+                    }
+                }
+            },
+            "CarResponse": {
+                "title": "CarResponse",
+                "type": "object",
+                "properties": {
+                    "probabilities": {
+                        "title": "Probabilities",
+                        "type": "object",
+                        "additionalProperties": {
+                            "type": "number"
+                        },
+                        "default": {
+                            "Hyundai SOLARIS": 0.05,
+                            "KIA Rio": 0.2,
+                            "Volkswagen Polo": 0.35,
+                            "Volkswagen Tiguan": 0.3,
+                            "SKODA OCTAVIA": 0.1
+                        }
+                    }
+                }
+            },
+            "HTTPValidationError": {
+                "title": "HTTPValidationError",
+                "type": "object",
+                "properties": {
+                    "detail": {
+                        "title": "Detail",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/ValidationError"
+                        }
+                    }
+                }
+            },
+            "Message": {
+                "title": "Message",
+                "type": "object",
+                "properties": {
+                    "error": {
+                        "title": "Error",
+                        "type": "boolean",
+                        "default": true
+                    },
+                    "message": {
+                        "title": "Message",
+                        "type": "string",
+                        "default": "Error description"
+                    }
+                }
+            },
+            "ValidationError": {
+                "title": "ValidationError",
+                "required": ["loc", "msg", "type"],
+                "type": "object",
+                "properties": {
+                    "loc": {
+                        "title": "Location",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "msg": {
+                        "title": "Message",
+                        "type": "string"
+                    },
+                    "type": {
+                        "title": "Error Type",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "clientTypes": {
+      "default": [
+        "ac43d7e4-cd8c-4f6f-b18a-5ccbc1356f75"
+      ],
+      "description": "Типы клиента",
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "type": "array",
+      "x-nullable": true
+    },
+    "cost": {
+      "default": 850000,
+      "description": "Стоимость автомобиля",
+      "example": 850000,
+      "format": "double",
+      "maximum": 10000000,
+      "minimum": 1500000,
+      "type": "number"
+    },
+    "initialFee": {
+      "default": 200000,
+      "description": "Первоначальный взнос, руб",
+      "example": 200000,
+      "format": "double",
+      "type": "number"
+    },
+    "kaskoValue": {
+      "description": "Сумма КАСКО, руб",
+      "format": "int32",
+      "type": "integer",
+      "x-nullable": true
+    },
+    "language": {
+      "enum": [
+        "ru-RU",
+        "en"
+      ],
+      "type": "string",
+      "x-nullable": true
+    },
+    "residualPayment": {
+      "description": "Остаточный платеж, руб",
+      "format": "double",
+      "type": "number",
+      "x-nullable": true
+    },
+    "settingsName": {
+      "default": "Haval",
+      "description": "Наименование калькулятора",
+      "type": "string"
+    },
+    "specialConditions": {
+      "default": [
+        "57ba0183-5988-4137-86a6-3d30a4ed8dc9",
+        "b907b476-5a26-4b25-b9c0-8091e9d5c65f",
+        "cbfc4ef3-af70-4182-8cf6-e73f361d1e68"
+      ],
+      "description": "Специальные условия",
+      "example": [
+        "57ba0183-5988-4137-86a6-3d30a4ed8dc9",
+        "b907b476-5a26-4b25-b9c0-8091e9d5c65f",
+        "cbfc4ef3-af70-4182-8cf6-e73f361d1e68"
+      ],
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "type": "array",
+      "x-nullable": true
+    },
+    "term": {
+      "default": 5,
+      "description": "Срок кредита, лет",
+      "example": 5,
+      "format": "int32",
+      "maximum": 7,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "type": "object"
+}
